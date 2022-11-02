@@ -6,14 +6,14 @@ package interfaceabstract;
 
 /**
  *
- * @author agus budi
+ * @author Riski Ilyas
  */
 public class CreditAccount extends AbstractBankAccount {
     private static int creditLimit;
     
     public CreditAccount(String name, String num, int amt){
         super(name, num, amt);
-        this.creditLimit = 100;
+        creditLimit = 100;
     }
     
     public void print(){
@@ -21,7 +21,7 @@ public class CreditAccount extends AbstractBankAccount {
                             + "\nAccount Name: " + this.accountName
                             + "\nAccount Number: " + this. accountNum
                             + "\nBalance: " + this.balance
-                            + "\nCredit Limit: " + this.creditLimit);
+                            + "\nCredit Limit: " + creditLimit);
     }
     
     @Override

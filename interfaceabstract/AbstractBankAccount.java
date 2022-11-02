@@ -6,7 +6,7 @@ package interfaceabstract;
 
 /**
  *
- * @author agus budi
+ * @author Riski Ilyas
  */
 abstract class AbstractBankAccount {
     
